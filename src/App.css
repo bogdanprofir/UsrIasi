@@ -9,7 +9,10 @@
     font-style: normal;
     font-display: swap;
   }
-
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
   body {
     background-image: url(./assets/iasi\ 2-01.svg);
     background-repeat: no-repeat;

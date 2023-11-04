@@ -18,7 +18,8 @@ const OrganizationStructure = () => {
 
     const bjMembrii = [
         "Filip Havarneanu",
-        "",
+        "Andrei Chirica",
+        "Codrin Danila"
         // Add more names as needed
     ];
 

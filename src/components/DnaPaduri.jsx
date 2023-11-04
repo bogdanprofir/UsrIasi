@@ -3,7 +3,7 @@ import DNA2  from '../assets/DNA2.jpg';
 
 function DnaPaduri() {
     return (
-        <div className="max-w-3xl mx-auto flex flex-col items-center justify-center pt-20 bg-white bg-opacity-10">
+        <div className="max-w-3xl mx-auto flex flex-col items-center justify-center pt-20 bg-white bg-opacity-40">
             <h1 className="text-3xl flex justify-center font-bold mt-4 mb-8">Susținem înființarea „DNA-ului Pădurilor”</h1>
             
             <img src={DNA2} alt="DNA-ului Pădurilor" className="w-[40rem] mb-8" />
@@ -18,7 +18,6 @@ function DnaPaduri() {
                 <p className="text-justify p-2 m-2 indent-5">USR dorește procurori specializați a căror prioritate să fie lupta împotriva mafiei lemnului. Avem nevoie de polițiști care să prindă hoții de lemne. Avem nevoie ca oamenii, indiferent de localitatea din care provin, să susțină proiectul USR, pentru că doar presiunea publică îi va face pe parlamentarii care până acum au întors privirea să voteze o lege care să îi trimită pe jefuitorii de păduri la închisoare.</p>
              
                 
-                {/* ... Continue with the rest of the paragraphs ... */}
                 
                 <a href="https://protejampadurile.usr.ro" className="underline text-blue-500 flex justify-center align-middle items-center text-3xl mb-8">Vă invităm și pe voi să continuați a lua parte la schimbare. </a>
             </div>

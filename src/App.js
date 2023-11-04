@@ -27,6 +27,7 @@ import UsrSolidar from './components/usrSolidar'
 import ActiuneUcraina from './components/actiuneUcraina';
 import './App.css'
 import 'tailwindcss/tailwind.css'
+import ImageGallery from './components/ImageGallery';
 
 
 function App() {
@@ -47,6 +48,7 @@ function App() {
           <Route path="/actiunecaritabila" element={<ActiuneCaritabila />} />
           <Route path="/breakiasi" element={<BreakIasi />} />
           <Route path="/cabinetedotate" element={<CabineteDotate />} />
+          <Route path='/galerie-foto-usr'element={<ImageGallery/>} />
           <Route path="/caravanadizabilitati" element={<CaravanaDizabilitati />} />
           <Route path="/dna-ul_padurilor" element={<DNAulPadurilor />} />
           <Route path="/ecologizare" element={<Ecologizare />} />

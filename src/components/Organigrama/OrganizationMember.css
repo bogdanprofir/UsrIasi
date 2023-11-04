@@ -1,0 +1,22 @@
+/* OrganizationMember.css */
+.image-container {
+    width: 15rem; /* Set your preferred width */
+    height: 15rem; /* Set your preferred height to create a square container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.circle-mask {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.circle-mask img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

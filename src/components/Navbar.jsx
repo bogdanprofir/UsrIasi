@@ -28,6 +28,7 @@ const Navbar = () => {
               <Link to="/oameni/consilieriJudeteni" onClick={onMobileClose} className="block font-eleron px-4 py-2 hover:bg-[#FFF] hover:text-[#002A59]">Consilieri judeteni</Link>
           </div>
       </div>
+      <Link to="/galerie-foto-usr" onClick={onMobileClose}>Galerie Foto</Link>
       <Link to="/contact" onClick={onMobileClose}>
       <h4 className='hover:cursor-pointer font-eleron hover:scale-105'>Contact</h4>
     </Link>
