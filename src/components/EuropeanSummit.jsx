@@ -3,7 +3,7 @@ import EuropeanYouthImg from '../assets/summit.jpg'; // Ensure you have the imag
 
 function EuropeanYouthSummitIasi() {
   return (
-    <div className="max-w-3xl mx-auto flex flex-col items-center justify-center pt-20 bg-white bg-opacity-40">
+    <div className="max-w-3xl mx-auto flex flex-col items-center justify-center pt-20 bg-white bg-opacity-90">
       <h1 className="text-3xl flex justify-center font-bold mt-4 mb-8">Future of European Youth Summit 3.0 a venit la Iași.</h1>
       
       <img src={EuropeanYouthImg} alt="European Youth Summit in Iași" className="w-[40rem] mb-8" />

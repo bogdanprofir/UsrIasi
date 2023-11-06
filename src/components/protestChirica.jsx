@@ -3,7 +3,7 @@ import PRC2 from '../assets/protestChirica2.jpg'; // Ensure you have the image y
 
 function ProtestImpotrivaCoruptiei() {
   return (
-    <div className="max-w-3xl mx-auto flex flex-col items-center justify-center pt-20 bg-white bg-opacity-10">
+    <div className="max-w-3xl mx-auto flex flex-col items-center justify-center pt-20 bg-white bg-opacity-90">
       <h1 className="text-3xl flex justify-center font-bold mt-4 mb-8">Protest împotriva corupției</h1>
       
       <img src={PRC2} alt="Protest împotriva corupției" className="w-[40rem] mb-8" />

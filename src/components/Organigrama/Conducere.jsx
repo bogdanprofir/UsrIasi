@@ -47,7 +47,7 @@ const OrganizationStructure = () => {
                         />
                     ))}
                 </div>
-                <div className="w-full md:w-[50%] bg-white opacity-75 mt-6">
+                <div className="w-full md:w-[50%] bg-white opacity-90 mt-6">
                     <h3 className="text-2xl text-center text-[#002A59] font-semibold">Membrii Biroului Judetean</h3>
                     <table className="min-w-full text-[#002A59] font-bold mt-2">
                         <tbody>
@@ -73,7 +73,7 @@ const OrganizationStructure = () => {
                         />
                     ))}
                 </div>
-                <div className="w-full md:w-[50%] bg-white opacity-75 mt-6">
+                <div className="w-full md:w-[50%] bg-white opacity-90 mt-6">
                     <h3 className="text-2xl text-center text-[#002A59] font-semibold">Membrii Biroului Local</h3>
                     <table className="min-w-full text-[#002A59] font-bold mt-2">
                         <tbody>

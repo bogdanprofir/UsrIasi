@@ -3,7 +3,7 @@ import UKR2 from '../assets/ucraina.jpg'; // Ensure you have the image you want 
 
 function USRTineretSolidar() {
   return (
-    <div className="max-w-3xl mx-auto flex flex-col items-center justify-center pt-20 bg-white bg-opacity-10">
+    <div className="max-w-3xl mx-auto flex flex-col items-center justify-center pt-20 bg-white bg-opacity-90">
       <h1 className="text-3xl flex justify-center font-bold mt-4 mb-8">USR Tineret, solidar cu victimele războiului din Ucraina</h1>
       
       <img src={UKR2} alt="USR Tineret, solidar cu victimele războiului din Ucraina" className="w-[40rem] mb-8" />

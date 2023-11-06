@@ -8,8 +8,9 @@ import GDPR from './components/GDPR'
 import Stiri from './components/Stiri';
 import Conducere from './components/Organigrama/Conducere';
 import Parlamentari  from './components/Organigrama/Parlamentari';
-import Reprezentanti from './components/Organigrama/Reprezentanti judeteni';
+import ConsilieriJudeteni from './components/Organigrama/ConsilieriJudeteni.jsx';
 import Contact from './components/Contact';
+import ConsilieriLocali from './components/Organigrama/ConsilieriLocali.jsx';
 import FaraPaca from './components/FaraPaca.jsx';
 import ActiuneCaritabila from './components/actiuneCaritabila'
 import BreakIasi from './components/BreakIasi';
@@ -42,7 +43,8 @@ function App() {
           <Route path="/stiri" element={<Stiri />} />
           <Route path="/oameni/conducere" element={<Conducere />} />
           <Route path="/oameni/parlamentari" element={<Parlamentari />} />
-          <Route path="/oameni/reprezentanti" element={<Reprezentanti />} />
+          <Route path="/oameni/consilieriJudeteni" element={<ConsilieriJudeteni />} />
+          <Route path="/oameni/consilieriLocali" element={<ConsilieriLocali />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/fara_pacanele_usr" element={<FaraPaca />} />
           <Route path="/actiunecaritabila" element={<ActiuneCaritabila />} />

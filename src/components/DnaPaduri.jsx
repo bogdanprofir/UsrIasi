@@ -3,7 +3,7 @@ import DNA2  from '../assets/DNA2.jpg';
 
 function DnaPaduri() {
     return (
-        <div className="max-w-3xl mx-auto flex flex-col items-center justify-center pt-20 bg-white bg-opacity-40">
+        <div className="max-w-3xl mx-auto flex flex-col items-center justify-center pt-20 bg-white bg-opacity-90">
             <h1 className="text-3xl flex justify-center font-bold mt-4 mb-8">Susținem înființarea „DNA-ului Pădurilor”</h1>
             
             <img src={DNA2} alt="DNA-ului Pădurilor" className="w-[40rem] mb-8" />

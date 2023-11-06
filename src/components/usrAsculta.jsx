@@ -3,7 +3,7 @@ import USRTineretIasiImg from '../assets/usrAsculta2.jpg'; // Ensure you have th
 
 function USRIasiTeAsculta() {
   return (
-    <div className="max-w-3xl mx-auto flex flex-col items-center justify-center pt-20 bg-white bg-opacity-10">
+    <div className="max-w-3xl mx-auto flex flex-col items-center justify-center pt-20 bg-white bg-opacity-90">
       <h1 className="text-3xl flex justify-center font-bold mt-4 mb-8">Campania „USR Iași te ascultă”</h1>
       
       <img src={USRTineretIasiImg} alt="Campania „USR Iași te ascultă”" className="w-[40rem] mb-8" />

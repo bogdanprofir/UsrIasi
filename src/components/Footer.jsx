@@ -1,12 +1,12 @@
 import React from "react";
-import { FaFacebook } from "react-icons/fa";
+import { FaFacebook, FaInstagram } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 function Footer() {
   return (
     <footer className="bg-[#002A59] text-white font-eleron font-bold p-6">
       <div className="container mx-auto md:flex justify-between items-center">
-        <div className="mb-4 md:mb-0">
+        <div className="mb-4 md:mb-0 flex space-x-2">
           <a
             href="https://www.facebook.com/usriasi"
             target="_blank"
@@ -14,6 +14,14 @@ function Footer() {
             className="text-2xl text-white hover:text-gray-300"
           >
             <FaFacebook />
+          </a>
+          <a
+            href="https://www.instagram.com/usr_oficial/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-2xl text-white hover:text-gray-300"
+          >
+            <FaInstagram />
           </a>
         </div>
 

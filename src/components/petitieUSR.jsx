@@ -3,7 +3,7 @@ import Pet1 from '../assets/petitieUSR.jpg'; //
 
 function PetitieUSRIasi() {
   return (
-    <div className="max-w-3xl mx-auto flex flex-col items-center justify-center pt-20 bg-white bg-opacity-10">
+    <div className="max-w-3xl mx-auto flex flex-col items-center justify-center pt-20 bg-white bg-opacity-90">
       <h1 className="text-3xl flex justify-center font-bold mt-4 mb-8">Petiție USR Iași</h1>
       <a href="https://petition.qomon.org/transport-public-gratuit-la-iasi/?fbclid=IwAR0eJyOe0JXQF5i4OKHNeRpX6S_HG37nga2VGOXJUgAGZ_PtkCe_n5hcPmI" className="underline text-blue-500 flex justify-center items-center text-3xl">Semnează aici!</a>
       <h2 className="text-2xl flex justify-center font-medium mb-6">Vrem transport public gratuit, rapid, flexibil și modern, care să acopere și suburbiile, la Iași!</h2>
