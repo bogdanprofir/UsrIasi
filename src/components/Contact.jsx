@@ -37,7 +37,7 @@ function Contact() {
     }
   };
   return (
-    <section className="text-gray-600 body-font fixed top-0 right-0 bottom-0 left-0">
+    <section className="text-gray-600 font-eleron body-font fixed top-0 right-0 bottom-0 left-0">
       <div className="absolute inset-0">
         <iframe
           width="100%"
@@ -62,7 +62,7 @@ function Contact() {
           </p>
 
           <form onSubmit={handleSubmit}>
-            <div className="relative mb-4">
+            <div className="relative mb-1">
               <label htmlFor="name" className="leading-7 text-sm text-gray-600">
                 Nume
               </label>
@@ -100,7 +100,7 @@ function Contact() {
               />
             </div>
 
-            <div className="relative mb-4">
+            <div className="relative mb-2">
               <label
                 htmlFor="message"
                 className="leading-7 text-sm text-gray-600"
@@ -133,7 +133,7 @@ function Contact() {
 
             <button
               type="submit"
-              className="text-white bg-[#002A59] border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg mt-5"
+              className="text-white bg-[#002A59] border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg mt-1"
             >
               Trimite
             </button>

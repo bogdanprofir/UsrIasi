@@ -1,5 +1,5 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import React, {useEffect} from 'react';
+import { BrowserRouter as Router, Route, Routes,} from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Acasa from './components/Acasa';
@@ -20,6 +20,7 @@ import DNAulPadurilor from './components/DnaPaduri';
 import Ecologizare from './components/ecologizare'
 import EuropeanSummit from './components/EuropeanSummit'
 import PetitieUSR from './components/petitieUSR'
+import BiroulLocal from './components/Organigrama/BiroulLocal.jsx';
 import ProtestChirica from './components/protestChirica'
 import ProtestCiolacu from './components/ProtestCiolacu' 
 import Termoficare from './components/termoficare'
@@ -29,11 +30,21 @@ import ActiuneUcraina from './components/actiuneUcraina';
 import './App.css'
 import 'tailwindcss/tailwind.css'
 import ImageGallery from './components/ImageGallery';
+import ScrollToTop from './components/ScrollToTop.jsx';
+import BirouTineret from './components/Organigrama/BirouTineret.jsx';
+
 
 
 function App() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top when the route changes
+  }, []);
+
   return (
-    <Router>
+    <Router >
+
+      <ScrollToTop />
       <div className="App">
         <Navbar />
         
@@ -41,7 +52,9 @@ function App() {
           <Route path="/" element={<Acasa />} />
           <Route path="/despre_usr" element={<DespreUsr />} />
           <Route path="/stiri" element={<Stiri />} />
-          <Route path="/oameni/conducere" element={<Conducere />} />
+          <Route path="/oameni/biroul-judetean-iasi" element={<Conducere />} />
+          <Route path="/oameni/biroul-local-iasi" element={<BiroulLocal />} />
+          <Route path="/oameni/biroul-tineret-iasi" element={<BirouTineret />} />
           <Route path="/oameni/parlamentari" element={<Parlamentari />} />
           <Route path="/oameni/consilieriJudeteni" element={<ConsilieriJudeteni />} />
           <Route path="/oameni/consilieriLocali" element={<ConsilieriLocali />} />

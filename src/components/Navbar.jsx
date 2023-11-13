@@ -22,7 +22,10 @@ const Navbar = () => {
               </svg>
           </h4>
           <div className="absolute left-0 z-10 hidden mt-1 group-hover:block bg-[#002A59] text-[#fff] py-2 rounded shadow-lg">
-              <Link to="/oameni/conducere" onClick={onMobileClose} className="block font-eleron px-4 py-2 hover:bg-[#FFF] hover:text-[#002A59]">Conducere</Link>
+              {/* <Link to="/oameni/conducere" onClick={onMobileClose} className="block font-eleron px-4 py-2 hover:bg-[#FFF] hover:text-[#002A59]">Conducere</Link> */}
+              <Link to="/oameni/biroul-judetean-iasi" onClick={onMobileClose} className="block font-eleron px-4 py-2 hover:bg-[#FFF] hover:text-[#002A59]">Biroul Județean</Link>
+            <Link to="/oameni/biroul-local-iasi" onClick={onMobileClose} className="block font-eleron px-4 py-2 hover:bg-[#FFF] hover:text-[#002A59]">Biroul Local</Link>
+            <Link to="/oameni/biroul-tineret-iasi" onClick={onMobileClose} className="block font-eleron px-4 py-2 hover:bg-[#FFF] hover:text-[#002A59]">Birou Tineret</Link>
               <Link to="/oameni/parlamentari" onClick={onMobileClose} className="block font-eleron px-4 py-2 hover:bg-[#FFF] hover:text-[#002A59]">Parlamentari</Link>
               <Link to="/oameni/consilieriLocali" onClick={onMobileClose} className="block font-eleron px-4 py-2 hover:bg-[#FFF] hover:text-[#002A59]">Consilieri locali</Link>
               <Link to="/oameni/consilieriJudeteni" onClick={onMobileClose} className="block font-eleron px-4 py-2 hover:bg-[#FFF] hover:text-[#002A59]">Consilieri judeteni</Link>

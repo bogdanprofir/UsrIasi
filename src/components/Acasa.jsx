@@ -22,12 +22,12 @@ function Acasa() {
 
       {/* Left side: Buttons */}
       <div className="flex flex-col justify-center items-center md:w-1/3 p-4 h-full">
-        <h1 className='text-3xl p-6 m-3 flex justify-center items-center align-middle text-[#002A59] font-extrabold'>USR Organizatia Judeteana Iași </h1>
+        <h1 className='text-3xl p-6 m-3 flex justify-center items-center align-middle text-[#002A59] font-extrabold'>USR Organizația Județeană Iași </h1>
         <div className='flex flex-col md:space-y-4'>
-          <button className='bg-[#002A59] w-[10rem] mb-4 md:mb-0 p-2 text-white h-[2rem] items-center align-middle flex justify-center rounded-2xl hover:shadow-lg'>Initiative</button>
-          <button className='bg-[#002A59] w-[10rem] mb-4 md:mb-0 p-2 text-white h-[2rem] items-center align-middle flex justify-center rounded-2xl hover:shadow-lg'>Programa</button>
+          <button className='bg-[#FF0021] w-[10rem] mb-4 md:mb-0 p-2 hover:bg-white hover:text-[#002A59] font-bold text-white h-[2rem] items-center align-middle flex justify-center rounded-2xl opacity-70 hover:shadow-lg'>Initiative</button>
+          <button className='bg-[#FF0021] w-[10rem] mb-4 md:mb-0 p-2 hover:bg-white hover:text-[#002A59] font-bold text-white h-[2rem] items-center align-middle flex justify-center opacity-70 rounded-2xl hover:shadow-lg'>Programa</button>
           <Link to="https://usr.ro/doneaza/" target="_blank">
-            <button className='bg-[#002A59] w-[10rem] p-2 text-white h-[2rem] items-center align-middle flex justify-center rounded-2xl hover:shadow-lg'>Doneaza</button>
+            <button className='bg-[#FF0021] w-[10rem] p-2 hover:bg-white hover:text-[#002A59] font-bold text-white h-[2rem] items-center align-middle flex justify-center rounded-2xl opacity-70 hover:shadow-lg'>Doneaza</button>
           </Link>
         </div>
       </div>
@@ -38,7 +38,7 @@ function Acasa() {
         {/* Latest Activity Column */}
         <div className="flex flex-col overflow-y-auto w-full md:w-1/2 p-4 rounded-tr-lg mb-4 md:mb-0 h-full">
           <h2 className="text-2xl font-bold mb-4 text-[#002A59] flex justify-center">Activitate</h2>
-          <Link to="/petitieUSR" className="flex flex-col justify-center items-center md:flex-row mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
+          <Link to="/petitieUSR" className="flex flex-col  justify-center items-center md:flex-row mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
             <img src={PET1} alt="Activity" className="w-40 h-40 object-cover mr-4" />
             <div className='flex flex-col justify-evenly'>
               <h3 className="text-xl font-semibold text-white">Petiție USR Iași</h3>
