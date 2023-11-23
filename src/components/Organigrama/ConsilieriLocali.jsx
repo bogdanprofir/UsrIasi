@@ -6,11 +6,14 @@ const ConsilieriLocali = () => {
     const Consilieri = [
         
         { name: "ANASTASIEI IONUȚ - DANIEL", title: "Consilier Local", imageUrl: "/StefanTanasa.jpeg" },
-        
-        { name: "Razvan Timofciuc", title: "Consilier Local", imageUrl: "/StefanTanasa.jpeg" },
+        { name: "Daniel Disca", title: "Consilier Local", imageUrl: "/StefanTanasa.jpeg" },        
+        { name: "Madalina Petrea Popescu", title: "Consilier Local", imageUrl: "/StefanTanasa.jpeg" },
         { name: "Finkelstain Diana", title: "Consilier Local", imageUrl: "/StefanTanasa.jpeg" },
         { name: " Nicolau Iulian", title: "Consilier Local", imageUrl: "/StefanTanasa.jpeg" },
         { name: " Carcea Maria Ileana", title: "Consilier Local", imageUrl: "/StefanTanasa.jpeg" },
+        { name: " Carcea Maria Ileana", title: "Consilier Local", imageUrl: "/StefanTanasa.jpeg" },
+        { name: " Emanuel Zanoschi", title: "Consilier Local", imageUrl: "/StefanTanasa.jpeg" },
+        { name: " Gabriela Cojocaru", title: "Consilier Local", imageUrl: "/StefanTanasa.jpeg" },
         { name: " Popescu Andrei- Vasile", title: "Consilier Local", imageUrl: "/StefanTanasa.jpeg" },
     ]   
     

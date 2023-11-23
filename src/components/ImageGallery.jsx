@@ -1,8 +1,7 @@
 // ImageGallery.js
 import React, { useState } from 'react';
 import BRK1 from '../assets/break.jpg';
-import DNA1 from '../assets/DNA1.jpg';
-import charity from '../assets/charity.jpg'
+
 // ... import other images
 
 const imageData = [
