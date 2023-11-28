@@ -13,6 +13,8 @@ import UTA1 from '../assets/UsrAsculta.jpg'
 import DOC1 from '../assets/proiectDocFam.jpg'
 import BRK1 from '../assets/break.jpg'
 import XMAS1 from '../assets/Santa.jpg'
+import Bodea from '../assets/CandidatPrimarie.jpg'
+import ScoliNoi from '../assets/ScoliNoi.png'
 import 'tailwindcss/tailwind.css';
 import { Link } from 'react-router-dom';
 
@@ -38,7 +40,14 @@ function Acasa() {
         {/* Activitati Column */}
         <div className="flex flex-col overflow-y-auto w-full md:w-1/2 p-4 rounded-tr-lg mb-4 md:mb-0 h-full">
           <h2 className="text-2xl font-bold mb-4 text-[#002A59] flex justify-center">Activitate</h2>
-          
+
+          <Link to="/comunicat_presa_candidat_primaria_iasi" className="flex flex-col justify-center items-center md:flex-row mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
+            <img src={Bodea} alt="News" className="w-40 h-40 object-cover mr-4" />
+            <div className='flex flex-col justify-evenly'>
+              <h3 className="text-xl font-semibold text-white">Comunicat de presă</h3>
+              <p className="text-white">USR Iași anunță desemnarea oficială a candidatului pentru Primăria Municipiului Iași</p>
+            </div>
+          </Link>
           <Link to="/protest_chirica" className="flex flex-col justify-center items-center md:flex-row mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
             <img src={PCH1} alt="News" className="w-40 h-40 object-cover mr-4" />
             <div className='flex flex-col justify-evenly'>
@@ -110,13 +119,6 @@ function Acasa() {
         {/* xProiecte Column */}
         <div className="flex flex-col overflow-y-auto w-full md:w-1/2 p-4 rounded-tl-lg h-full">
           <h2 className="text-2xl font-bold mb-4 text-[#002A59] flex justify-center">Proiecte</h2>
-          <Link to="/dna-ul_padurilor" className="flex flex-col justify-center items-center md:flex-row  mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
-            <img src={DNA1} alt="News" className="w-40 h-40 object-cover mr-4" />
-            <div className='flex flex-col justify-evenly'>
-              <h3 className="text-xl font-semibold text-white">Susținem înființarea „DNA-ului Pădurilor” </h3>
-              <p className="text-white">Colegi din toată țara pun timpul și umărul la bătaie pentru a proteja pădurile. </p>
-            </div>
-          </Link>
           <Link to="/fara_pacanele_usr" className="flex  mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
             <img src={FP1} alt="Activity" className="w-40 h-40 object-cover mr-4" />
             <div className='flex flex-col justify-evenly'>
@@ -124,6 +126,21 @@ function Acasa() {
               <p className="text-white">USR Iași continuă maratonul  #FărăPăcănele </p>
             </div>
           </Link>
+          <Link to="/scoli_noi_pentru_Iasi" className="flex flex-col justify-center items-center md:flex-row  mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
+            <img src={ScoliNoi} alt="News" className="w-40 h-40 object-scale-down mr-4" />
+            <div className='flex flex-col justify-evenly'>
+              <h3 className="text-xl font-semibold text-white">Infrastructură școlară adecvată </h3>
+              <p className="text-white">Construirea de la zero a patru școli noi în orașul Iași, în patru zone diferite ale orașului.</p>
+            </div>
+          </Link>
+          <Link to="/dna-ul_padurilor" className="flex flex-col justify-center items-center md:flex-row  mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
+            <img src={DNA1} alt="News" className="w-40 h-40 object-cover mr-4" />
+            <div className='flex flex-col justify-evenly'>
+              <h3 className="text-xl font-semibold text-white">Susținem înființarea „DNA-ului Pădurilor” </h3>
+              <p className="text-white">Colegi din toată țara pun timpul și umărul la bătaie pentru a proteja pădurile. </p>
+            </div>
+          </Link>
+          
           <Link to="/petitieUSR" className="flex flex-col  justify-center items-center md:flex-row mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
             <img src={PET1} alt="Activity" className="w-40 h-40 object-cover mr-4" />
             <div className='flex flex-col justify-evenly'>

@@ -5,12 +5,12 @@ const ConsilieriJudeteni = () => {
 
     const Consilieri = [
         
-        { name: "Bogdan Mihail", title: "Consilier Judetean", imageUrl: "/StefanTanasa.jpeg" },
+        { name: "Bogdan Mihail", title: "Consilier Judetean", imageUrl: "/Tineret.png" },
         
-        { name: "Ciobanu Marius Mihai", title: "Consilier Judetean", imageUrl: "/StefanTanasa.jpeg" },
-        { name: "Codrin Dănilă", title: "Consilier Judetean", imageUrl: "/StefanTanasa.jpeg" },
-        { name: " Ignat Etienne", title: "Consilier Judetean", imageUrl: "/StefanTanasa.jpeg" },
-        { name: " Socolov Răzvan - Vladimir", title: "Consilier Judetean", imageUrl: "/StefanTanasa.jpeg" },
+        { name: "Ciobanu Marius Mihai", title: "Consilier Judetean", imageUrl: "/Tineret.png" },
+        { name: "Codrin Dănilă", title: "Consilier Judetean", imageUrl: "/Tineret.png" },
+        { name: " Ignat Etienne", title: "Consilier Judetean", imageUrl: "/Tineret.png" },
+        { name: " Socolov Răzvan - Vladimir", title: "Consilier Judetean", imageUrl: "/Tineret.png" },
     ]   
     
     

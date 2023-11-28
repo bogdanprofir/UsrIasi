@@ -3,7 +3,7 @@ import ECO1 from '../assets/eco1.jpg';
 
 function EcologizareUSR() {
   return (
-    <div className="max-w-3xl mx-auto flex flex-col items-center justify-center pt-20 bg-white bg-opacity-90">
+    <div className="max-w-3xl mx-auto flex flex-col items-center text-[#002A59] justify-center pt-20 bg-white bg-opacity-90">
       <h1 className="text-3xl flex justify-center font-bold mt-4 mb-8">Ecologizare făcută de USR Iași</h1>
       
       <img src={ECO1} alt="Ecologizare făcută de USR Iași" className="w-[40rem] h-[40rem] mb-8" />

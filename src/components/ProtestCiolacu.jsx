@@ -3,7 +3,7 @@ import PC2 from '../assets/protestCiolacu2.jpg'; // Ensure you have the image yo
 
 function ProtestUSR() {
   return (
-    <div className="max-w-3xl mx-auto flex flex-col items-center justify-center pt-20 bg-white bg-opacity-90">
+    <div className="max-w-3xl mx-auto flex flex-col items-center justify-center pt-20 text-[#002A59] bg-white bg-opacity-90">
       <h1 className="text-3xl flex justify-center font-bold mt-4 mb-8">Protest USR Iași împotriva Guvernului Ciolacu</h1>
       
       <img src={PC2} alt="Protest USR Iași împotriva Guvernului Ciolacu" className="w-[45rem] mb-8" />

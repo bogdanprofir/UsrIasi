@@ -3,14 +3,14 @@ import DNA2  from '../assets/DNA2.jpg';
 
 function DnaPaduri() {
     return (
-        <div className="max-w-3xl mx-auto flex flex-col items-center justify-center pt-20 bg-white bg-opacity-90">
-            <h1 className="text-3xl flex justify-center font-bold mt-4 mb-8">Susținem înființarea „DNA-ului Pădurilor”</h1>
+        <div className="max-w-3xl mx-auto flex flex-col items-center text-[#002A59] justify-center pt-20 bg-white bg-opacity-90">
+            <h1 className="text-3xl flex justify-center font-bold mt-4 mb-8">Susținem înființarea „ <span className='underline'> DNA-ului Pădurilor</span>”</h1>
             
             <img src={DNA2} alt="DNA-ului Pădurilor" className="w-[40rem] mb-8" />
             
             <div className="prose prose-lg font-eleron text-xl">
                 <p className="text-justify p-2 m-2 indent-5">Colegi din toată țara pun timpul și umărul la bătaie pentru a proteja pădurile.</p>
-                <p className="text-justify p-2 m-2 indent-5">Caravana „DNA-ul Pădurilor” a fost la Iași și peste 1000 de oameni au semnat pentru înființarea Direcției de Investigare a Infracțiunilor de Mediu, un DNA al Pădurilor care să bage hoții de lemne la închisoare.</p>
+                <p className="text-justify p-2 m-2 indent-5">Caravana <span className=' text-[#FF0021] font-bold'>„DNA-ul Pădurilor”</span> a fost la Iași și peste 1000 de oameni au semnat pentru înființarea Direcției de Investigare a Infracțiunilor de Mediu, un DNA al Pădurilor care să bage hoții de lemne la închisoare.</p>
                 <p className="text-justify p-2 m-2 indent-5">Alături de colegii noștri de la USR Tineret, am ieșit în stradă și am vorbit cu ieșenii despre necesitatea și utilitatea acestei instituții. Cetățenii au dialogat, au înțeles gravitatea fenomenului defrișărilor masive și au ales să se implice alături de noi.</p>
                 <p className="text-justify p-2 m-2 indent-5">Se taie milioane de metri cubi de lemn, dar mafia are spatele asigurat. În 2019, Inventarului Forestier Naţional anunța că anual se taie ilegal 20 de milioane de metri cubi de lemn din pădurile din România. Vinovații sunt în libertate și prosperă. În tot acest timp, aerul nostru este tot mai puțin bogat în oxigen, peisajele sunt dezolante, animalele sunt hăituite în propriul habitat, iar surpările și inundațiile sunt tot mai prezente.</p>
                 <p className="text-justify p-2 m-2 indent-5">Salvarea puținelor păduri pe care le mai are România este o urgență, pentru că ele sunt jefuite în fiecare zi sub ochii autorităților care, de cele mai multe ori, ajung chiar complice la tăierile ilegale. De ani de zile pe drumurile din România trec mii de camioane încărcate cu lemn furat. România se confruntă cu un veritabil fenomen infracțional, dar pare că nimeni nu răspunde pentru acest măcel național. Infracțiunea a fost ridicată la rang de lege și nimeni nu ia nicio măsură.</p>

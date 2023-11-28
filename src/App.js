@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 import Acasa from './components/Acasa';
 import DespreUsr from './components/DespreUsr';
 import GDPR from './components/GDPR'
-import Stiri from './components/Stiri';
+import ComunicatPresaNoiembrie from './components/CandidatPrimarie.jsx';
 import Conducere from './components/Organigrama/Conducere';
 import Parlamentari  from './components/Organigrama/Parlamentari';
 import ConsilieriJudeteni from './components/Organigrama/ConsilieriJudeteni.jsx';
@@ -25,7 +25,7 @@ import ProtestChirica from './components/protestChirica'
 import ProtestCiolacu from './components/ProtestCiolacu' 
 import Termoficare from './components/termoficare'
 import UsrAsculta from './components/usrAsculta'
-import UsrSolidar from './components/usrSolidar'
+import ScoliNoi from './components/ScoliNoi.jsx';
 import ActiuneUcraina from './components/actiuneUcraina';
 import './App.css'
 import 'tailwindcss/tailwind.css'
@@ -51,7 +51,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Acasa />} />
           <Route path="/despre_usr" element={<DespreUsr />} />
-          <Route path="/stiri" element={<Stiri />} />
+          <Route path="/comunicat_presa_candidat_primaria_iasi" element={<ComunicatPresaNoiembrie />} />
           <Route path="/oameni/biroul-judetean-iasi" element={<Conducere />} />
           <Route path="/oameni/biroul-local-iasi" element={<BiroulLocal />} />
           <Route path="/oameni/biroul-tineret-iasi" element={<BirouTineret />} />
@@ -74,7 +74,7 @@ function App() {
           <Route path="/termoficare" element={<Termoficare />} />
           <Route path='ajutor_ucraina' element={<ActiuneUcraina/>}/>
           <Route path="/usrasculta" element={<UsrAsculta />} />
-          <Route path="/usrsolidar" element={<UsrSolidar />} />
+          <Route path="/scoli_noi_pentru_Iasi" element={<ScoliNoi />} />
           <Route path="/GDPR" element={<GDPR />} />
           
         </Routes>

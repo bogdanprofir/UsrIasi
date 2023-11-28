@@ -2,10 +2,11 @@ import React from "react";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
+
 function Footer() {
   return (
     <footer className="bg-[#002A59] text-white font-eleron font-bold p-6">
-      <div className="container mx-auto md:flex justify-between items-center">
+      <div className="container mx-auto md:flex justify-between align-middle items-center">
         <div className="mb-4 md:mb-0 flex space-x-2">
           <a
             href="https://www.facebook.com/usriasi"
@@ -16,7 +17,7 @@ function Footer() {
             <FaFacebook />
           </a>
           <a
-            href="https://www.instagram.com/usr_oficial/"
+            href="https://www.instagram.com/usrtiasi/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-2xl text-white hover:text-gray-300"
@@ -38,6 +39,11 @@ function Footer() {
           >
             Email: contact@usr-iasi.ro
           </a>
+        </div>
+        <div className="mb-4 md:mb-0 gap-5 flex flex-col justify-center md:flex-row ">
+         <a href="https://www.aldeparty.eu/"> <img className="w-[15rem] md:w-[10rem]" src='/AldeLogo.svg' alt="" /></a>
+         <a href="https://www.usr.ro/wp-content/uploads/2017/04/ALDE-Party-2019-Freedom-opportunity-prosperity-the-Liberal-vision-for-the-future-of-Europe.pdf"> <img className="w-[15rem] md:w-[10rem]" src="/AldeManifesto.jpg" alt="" /></a>
+
         </div>
 
         <div>

@@ -3,7 +3,7 @@ import USRIasiImg from '../assets/proiectDocFam.jpg'; // Ensure you have the ima
 
 function USRIasiMediciFamilie() {
   return (
-    <div className="max-w-3xl mx-auto flex flex-col items-center justify-center pt-20 bg-white bg-opacity-90">
+    <div className="max-w-3xl mx-auto flex flex-col items-center text-[#002A59] justify-center pt-20 bg-white bg-opacity-90">
       <h1 className="text-3xl flex justify-center font-bold mt-4 mb-8">USR Iași, în ajutorul medicilor de familie pentru dotarea unor cabinete moderne</h1>
       
       <img src={USRIasiImg} alt="USR Iași, în ajutorul medicilor de familie pentru dotarea unor cabinete moderne" className="w-[40rem] mb-8" />
