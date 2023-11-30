@@ -8,7 +8,7 @@ const Navbar = () => {
   const NavLinks = ({ onMobileClose }) => (
     <>
     <Link to="/" onClick={onMobileClose}>
-      <h4 className='hover:cursor-pointer hover:scale-105  font-eleron'>Acasa</h4>
+      <h4 className='hover:cursor-pointer hover:scale-105  font-eleron'>Acasă</h4>
     </Link>
     <Link to="/despre_usr" onClick={onMobileClose}>
       <h4 className='hover:cursor-pointer hover:scale-105  font-eleron'>Despre USR</h4>
@@ -28,7 +28,7 @@ const Navbar = () => {
             <Link to="/oameni/biroul-tineret-iasi" onClick={onMobileClose} className="block font-eleron px-4 py-2 hover:bg-[#FFF] hover:text-[#002A59]">Birou Tineret</Link>
               <Link to="/oameni/parlamentari" onClick={onMobileClose} className="block font-eleron px-4 py-2 hover:bg-[#FFF] hover:text-[#002A59]">Parlamentari</Link>
               <Link to="/oameni/consilieriLocali" onClick={onMobileClose} className="block font-eleron px-4 py-2 hover:bg-[#FFF] hover:text-[#002A59]">Consilieri locali</Link>
-              <Link to="/oameni/consilieriJudeteni" onClick={onMobileClose} className="block font-eleron px-4 py-2 hover:bg-[#FFF] hover:text-[#002A59]">Consilieri judeteni</Link>
+              <Link to="/oameni/consilieriJudeteni" onClick={onMobileClose} className="block font-eleron px-4 py-2 hover:bg-[#FFF] hover:text-[#002A59]">Consilieri județeni</Link>
           </div>
       </div>
       <Link to="/galerie-foto-usr" className="hover:cursor-pointer hover:scale-105"onClick={onMobileClose}>Galerie Foto</Link>
@@ -51,7 +51,7 @@ const Navbar = () => {
       </div>
 
       <Link to="https://usr.ro/inscriere/" target="_blank" className="md:block hidden">
-        <button className='font-eleron bg-[#FF0021] w-[100px] p-2 h-18 rounded-lg hover:scale-105 uppercase'>Inscriere</button>
+        <button className='font-eleron bg-[#FF0021] w-[100px] p-2 h-18 rounded-lg hover:scale-105 uppercase'>Înscriere</button>
       </Link>
 
       <div className="md:hidden flex items-center justify-end">

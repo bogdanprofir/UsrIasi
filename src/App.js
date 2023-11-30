@@ -27,6 +27,7 @@ import Termoficare from './components/termoficare'
 import UsrAsculta from './components/usrAsculta'
 import ScoliNoi from './components/ScoliNoi.jsx';
 import ActiuneUcraina from './components/actiuneUcraina';
+import Initiative from './components/Initiative.jsx'
 import './App.css'
 import 'tailwindcss/tailwind.css'
 import ImageGallery from './components/ImageGallery';
@@ -59,6 +60,7 @@ function App() {
           <Route path="/oameni/consilieriJudeteni" element={<ConsilieriJudeteni />} />
           <Route path="/oameni/consilieriLocali" element={<ConsilieriLocali />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="intiative-usr-iasi" element={<Initiative/>}/>
           <Route path="/fara_pacanele_usr" element={<FaraPaca />} />
           <Route path="/actiunecaritabila" element={<ActiuneCaritabila />} />
           <Route path="/breakiasi" element={<BreakIasi />} />

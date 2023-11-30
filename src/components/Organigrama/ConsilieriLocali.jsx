@@ -5,16 +5,15 @@ const ConsilieriLocali = () => {
 
     const Consilieri = [
         
-        { name: "ANASTASIEI IONUȚ - DANIEL", title: "Consilier Local", imageUrl: "/Tineret.png" },
-        { name: "Daniel Disca", title: "Consilier Local", imageUrl: "/DanielDisca.png" },        
-        { name: "Madalina Petrea Popescu", title: "Consilier Local", imageUrl: "/Tineret.png" },
-        { name: "Finkelstain Diana", title: "Consilier Local", imageUrl: "/Tineret.png" },
-        { name: " Nicolau Iulian", title: "Consilier Local", imageUrl: "/Tineret.png" },
-        { name: " Carcea Maria Ileana", title: "Consilier Local", imageUrl: "/Tineret.png" },
-        { name: " Carcea Maria Ileana", title: "Consilier Local", imageUrl: "/Tineret.png" },
-        { name: " Emanuel Zanoschi", title: "Consilier Local", imageUrl: "/Tineret.png" },
-        { name: " Gabriela Cojocaru", title: "Consilier Local", imageUrl: "/Tineret.png" },
-        { name: " Popescu Andrei- Vasile", title: "Consilier Local", imageUrl: "/Tineret.png" },
+        { name: "Ionuț Anastasiei", title: "Consilier Local Iași", imageUrl: "/BJ.png" },
+        { name: "Laura Chiticariu", title: "Consilier Local Iași", imageUrl: "/BJ.png" },        
+        { name: "Diana Finkelștain", title: "Consilier Local Iași", imageUrl: "/BJ.png" },
+        { name: "Emanuel Zanovschi", title: "Consilier Local Iași", imageUrl: "/BJ.png" },
+        { name: "Andrei Popescu", title: "Consilier Local Iași", imageUrl: "/AndreiPopescu.png" },
+        { name: "Popescu Mădălina", title: "Consilier Local Iași", imageUrl: "/BJ.png" },
+        { name: "Gabriela Cojocaru", title: "Consilier Local Iași", imageUrl: "/BJ.png" },
+        { name: "Iulian Nicolau", title: "Consilier Local Iași", imageUrl: "/Bj.png" },
+       
     ]   
     
   return (

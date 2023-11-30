@@ -26,10 +26,11 @@ function Acasa() {
       <div className="flex flex-col justify-center items-center md:w-1/3 p-4 h-full">
         <h1 className='text-3xl p-6 m-3 flex justify-center items-center align-middle text-[#002A59] font-extrabold'>USR  Iași </h1>
         <div className='flex flex-col md:space-y-4'>
-          <button className='bg-[#FF0021] w-[10rem] mb-4 md:mb-0 p-2 hover:bg-white hover:text-[#002A59] font-bold text-white h-[2rem] items-center align-middle flex justify-center rounded-2xl  hover:shadow-lg'>Initiative</button>
-          {/* <button className='bg-[#FF0021] w-[10rem] mb-4 md:mb-0 p-2 hover:bg-white hover:text-[#002A59] font-bold text-white h-[2rem] items-center align-middle flex justify-center  rounded-2xl hover:shadow-lg'>Programa</button> */}
+         <Link to="/intiative-usr-iasi"><button className='bg-[#FF0021] w-[10rem] mb-4 md:mb-0 p-2 hover:bg-white hover:text-[#002A59] font-bold text-white h-[2rem] items-center align-middle flex justify-center rounded-2xl  hover:shadow-lg'>Inițiative</button>
+         </Link>
+         {/* <button className='bg-[#FF0021] w-[10rem] mb-4 md:mb-0 p-2 hover:bg-white hover:text-[#002A59] font-bold text-white h-[2rem] items-center align-middle flex justify-center  rounded-2xl hover:shadow-lg'>Programa</button> */}
           <Link to="https://usr.ro/doneaza/" target="_blank">
-            <button className='bg-[#FF0021] w-[10rem] p-2 hover:bg-white hover:text-[#002A59] font-bold text-white h-[2rem] items-center align-middle flex justify-center rounded-2xl  hover:shadow-lg'>Doneaza</button>
+            <button className='bg-[#FF0021] w-[10rem] p-2 hover:bg-white hover:text-[#002A59] font-bold text-white h-[2rem] items-center align-middle flex justify-center rounded-2xl  hover:shadow-lg'>Donează</button>
           </Link>
         </div>
       </div>
@@ -45,7 +46,7 @@ function Acasa() {
             <img src={Bodea} alt="News" className="w-40 h-40 object-cover mr-4" />
             <div className='flex flex-col justify-evenly'>
               <h3 className="text-xl font-semibold text-white">Comunicat de presă</h3>
-              <p className="text-white">USR Iași anunță desemnarea oficială a candidatului pentru Primăria Municipiului Iași</p>
+              <p className="text-white">USR Iași anunță desemnarea oficială a candidatului pentru Primăria Municipiului Iași.</p>
             </div>
           </Link>
           <Link to="/protest_chirica" className="flex flex-col justify-center items-center md:flex-row mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
@@ -149,7 +150,7 @@ function Acasa() {
             </div>
           </Link>
           <Link to="/termoficare" className="flex mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
-            <img src={TF1} alt="Activity" className="w-40 h-40 object-cover mr-4" />
+            <img src={TF1} alt="Activity" className="w-40 h-40 object-scale-down mr-4" />
             <div className='flex flex-col justify-evenly'>
               <h3 className="text-xl font-semibold text-white">Termoficare verde pentru Iași </h3>
               <p className="text-white">USR Iași propune termoficare verde pentru Iași!  </p>

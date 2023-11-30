@@ -4,7 +4,7 @@ import Bodea from '../assets/CandidatPrimarie.jpg'
 function ComunicatPresaNoiembrie() {
   return (
     <div className="max-w-3xl mx-auto flex flex-col items-center text-[#002A59] justify-center pt-20 bg-white bg-opacity-90">
-      <h1 className="text-3xl flex justify-center text-center font-bold mt-4 mb-8">Candidatul USR pentru postul de primar al Municipiului Iași</h1>
+      <h1 className="text-3xl flex justify-center text-center font-bold mt-4 mb-8">Candidatul USR pentru postul de Primar al Municipiului Iași</h1>
       
       <img src={Bodea} alt="Caravana USR Dizabilități La Iași" className="w-[20rem] mb-8" />
       <div className="prose prose-lg font-eleron text-xl">
