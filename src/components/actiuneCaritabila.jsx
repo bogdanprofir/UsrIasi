@@ -1,9 +1,13 @@
 import React from "react";
 import USRCaritabilaImg from '../assets/charity.jpg'; 
+import { Helmet } from 'react-helmet'
 
 function USRCaritabilaAction() {
   return (
     <div className="max-w-3xl mx-auto flex flex-col items-center justify-center pt-20 bg-white bg-opacity-90">
+      <Helmet>
+        <title>Acțiune caritabilă USR Iași</title>
+      </Helmet>
       <h1 className="text-3xl flex justify-center font-bold mt-4 mb-3 text-[#002A59]">Acțiune caritabilă USR Iași</h1>
       
       <img src={USRCaritabilaImg} alt="Acțiune caritabilă USR Iași" className="w-[40rem] mb-8" />

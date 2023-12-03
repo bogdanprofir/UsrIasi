@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { Helmet } from 'react-helmet'
 
 function Contact() {
   const [isCheckboxChecked, setIsCheckboxChecked] = useState(false);
@@ -38,6 +39,9 @@ function Contact() {
   };
   return (
     <section className="text-gray-600 font-eleron body-font fixed top-0 right-0 bottom-0 left-0">
+      <Helmet>
+        <title>Contact USR Iași</title>
+      </Helmet>
       <div className="absolute inset-0">
         <iframe
           width="100%"

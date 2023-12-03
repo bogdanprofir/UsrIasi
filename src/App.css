@@ -18,9 +18,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed; /* Lock the background while scrolling */
-    height: 100vh; /* Occupy the full viewport height */
-    overflow-y: auto; /* Allow scrolling if the content exceeds viewport height */
+    background-attachment: fixed; 
+    height: 100vh; 
+    overflow-y: auto; 
  }
  
 

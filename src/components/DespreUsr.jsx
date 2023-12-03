@@ -1,8 +1,12 @@
 import React from 'react';
+import { Helmet } from 'react-helmet'
 
 const RomaniaModerna = () => {
   return (
     <div className="max-w-4xl mx-auto p-4 pt-20 bg-white text-[#002A59] font-eleron min-h-screen bg-opacity-90">
+      <Helmet>
+        <title>Despre USR </title>
+      </Helmet>
       <h1 className="text-3xl font-bold text-red-600 text-center mb-6">România Modernă. Reforma cinstită</h1>
       <h2 className="text-2xl font-extrabold mb-4 text-white bg-[#002A59] pl-7 pr-7 pb-2">Doctrina de Centru Dreapta Modern</h2>
 

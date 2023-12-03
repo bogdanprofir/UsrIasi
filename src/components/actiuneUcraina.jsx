@@ -1,9 +1,13 @@
 import React from "react";
-import UKR2 from '../assets/ucraina.jpg'; // Ensure you have the image you want to use
+import UKR2 from '../assets/ucraina.jpg'; 
+import { Helmet } from 'react-helmet'
 
 function USRTineretSolidar() {
   return (
     <div className="max-w-3xl mx-auto flex flex-col items-center justify-center pt-20 bg-white bg-opacity-90">
+      <Helmet>
+        <title>USR Iași solidar cu Ucraina</title>
+      </Helmet>
       <h1 className="text-3xl flex justify-center font-bold mt-4 mb-8 text-[#002A59]">USR Tineret, solidar cu victimele războiului din Ucraina</h1>
       
       <img src={UKR2} alt="USR Tineret, solidar cu victimele războiului din Ucraina" className="w-[40rem] mb-8" />

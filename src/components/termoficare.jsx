@@ -1,9 +1,13 @@
 import React from "react";
-import TERM1 from '../assets/termoficare.jpg'; // Make sure you have the image you want to use
+import TERM1 from '../assets/termoficare.jpg'; 
+import { Helmet } from 'react-helmet'
 
 function TermoficareVerde() {
   return (
     <div className="max-w-3xl mx-auto flex flex-col items-center justify-center text-[#002A59] pt-20 bg-white bg-opacity-90">
+      <Helmet>
+        <title>Termoficare verde pentru Iași</title>
+      </Helmet>
       <h1 className="text-3xl flex justify-center font-bold mt-4 mb-1">Termoficare verde pentru Iași</h1>
       <h2 className="text-xl flex justify-center font-bold mt-4 mb-3">Planul pentru înlăturarea falimentului CET.
 Pierderile transformate în profit!</h2>

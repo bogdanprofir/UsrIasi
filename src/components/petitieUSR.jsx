@@ -1,12 +1,16 @@
 import React from "react";
-import Pet1 from '../assets/petitieUSR.jpg'; // 
+import Pet1 from '../assets/petitieUSR.jpg'; 
 import PetitieUsrButton from "./ButonPetitie";
+import { Helmet } from 'react-helmet'
 
 function PetitieUSRIasi() {
   return (
     <div className="max-w-3xl mx-auto flex flex-col items-center justify-center pt-20 bg-white bg-opacity-90">
+      <Helmet>
+        <title>Transport public GRATUIT | USR Iași</title>
+      </Helmet>
       <h1 className="text-3xl flex justify-center font-bold mt-8 mb-5 text-[#002a59]">Petiție USR Iași</h1>
-     {/* <button className="bg-[#002a59] text-white mb-4 p-4 font-bold text-2xl rounded-2xl transition-all duration-300 ease-in hover:text-[#002a59] hover:bg-white hover:border-[2px] hover:border-[#002a59] hover:shadow-5"> <a href="https://petition.qomon.org/transport-public-gratuit-la-iasi/?fbclid=IwAR0eJyOe0JXQF5i4OKHNeRpX6S_HG37nga2VGOXJUgAGZ_PtkCe_n5hcPmI" >Semnează aici!</a></button> */}
+     
      <PetitieUsrButton />
       <h2 className="text-2xl flex justify-center font-bold mb-6 text-[#002a59] align-center text-center">Vrem transport public gratuit, rapid, flexibil și modern, care să acopere și suburbiile, la Iași!</h2>
       

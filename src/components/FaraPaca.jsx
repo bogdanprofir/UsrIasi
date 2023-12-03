@@ -1,9 +1,14 @@
 import React from "react";
 import FP2 from '../assets/FP2.jpg'
+import { Helmet } from 'react-helmet'
 
 function faraPacanele ()  {
   return (
     <div className="max-w-3xl mx-auto text-[#002A59] flex flex-col items-center justify-center pt-20 bg-white bg-opacity-90">
+      <Helmet>
+        <title>#FărăPăcănele | USR Iași</title>
+      </Helmet>
+      
       <h1 className="text-3xl flex justify-center font-bold mt-4 mb-8">Acțiunea Fără Păcănele Lângă Școli</h1>
        
       <img src={FP2} alt="Acțiunea Fără Păcănele Lângă Școli" className="w-[28rem] mb-8" />

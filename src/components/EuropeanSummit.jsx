@@ -1,9 +1,14 @@
 import React from "react";
-import EuropeanYouthImg from '../assets/summit.jpg'; // Ensure you have the image you want to use
+import EuropeanYouthImg from '../assets/summit.jpg'; 
+import { Helmet } from 'react-helmet'
 
 function EuropeanYouthSummitIasi() {
   return (
     <div className="max-w-3xl mx-auto flex flex-col items-center justify-center pt-20 bg-white bg-opacity-90 text-[#002A59]">
+      <Helmet>
+        <title>Summit European de Tineret | USR Iași</title>
+      </Helmet>
+      
       <h1 className="text-3xl flex justify-center font-bold mt-4 mb-8">Future of European Youth Summit 3.0 a venit la Iași.</h1>
       
       <img src={EuropeanYouthImg} alt="European Youth Summit in Iași" className="w-[40rem] mb-8" />

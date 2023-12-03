@@ -1,10 +1,14 @@
 import React from 'react'
 import Scoli from '../assets/ScoliNoiContent.png'
+import { Helmet } from 'react-helmet'
 
 function ScoliNoi() {
 
   return (
     <div className="max-w-3xl mx-auto flex flex-col items-center justify-center text-[#002A59] pt-20 bg-white bg-opacity-90">
+      <Helmet>
+        <title>Infrastructură școlară adecvată | USR Iași</title>
+      </Helmet>
   <h1 className="text-3xl flex justify-center font-bold text-center mt-4 mb-8"> Soluții pentru o infrastructură școlară adecvată nevoilor Iașului</h1>
   <img src={Scoli} alt="Campania „USR Iași te ascultă”" className="w-[30rem] mb-8" />
   <div className="prose prose-lg font-eleron text-xl">

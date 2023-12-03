@@ -46,13 +46,14 @@ function Footer() {
 
         </div>
 
-        <div>
+        <div className="flex flex-col gap-1">
           <p className="font-eleron text-sm mb-1">
             Uniunea Salvați România. © 2023
           </p>
           <Link to="/GDPR" className="text-base font-eleron hover:underline">
             Informare prelucrarea datelor
           </Link>
+          <a className="font-eleron text-sm hover:underline" href="http://deisoconsulting.eu"> Produced by Deiso ©</a>
         </div>
       </div>
     </footer>

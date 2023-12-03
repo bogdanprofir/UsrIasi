@@ -1,9 +1,13 @@
 import React from "react";
-import PRC2 from '../assets/protestChirica2.jpg'; // Ensure you have the image you want to use
+import PRC2 from '../assets/protestChirica2.jpg'; 
+import { Helmet } from 'react-helmet'
 
 function ProtestImpotrivaCoruptiei() {
   return (
     <div className="max-w-3xl mx-auto flex flex-col items-center justify-center text-[#002A59] pt-20 bg-white bg-opacity-90">
+      <Helmet>
+        <title>Protest USR Iași</title>
+      </Helmet>
       <h1 className="text-3xl flex justify-center font-bold mt-4 mb-8">Protest împotriva corupției</h1>
       
       <img src={PRC2} alt="Protest împotriva corupției" className="w-[40rem] mb-8" />

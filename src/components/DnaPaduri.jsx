@@ -1,9 +1,14 @@
 import React from 'react';
 import DNA2  from '../assets/DNA2.jpg'; 
+import { Helmet } from 'react-helmet'
 
 function DnaPaduri() {
     return (
         <div className="max-w-3xl mx-auto flex flex-col items-center text-[#002A59] justify-center pt-20 bg-white bg-opacity-90">
+            
+            <Helmet>
+        <title>DNA-ul Pădurilor | USR Iași</title>
+      </Helmet>
             <h1 className="text-3xl flex justify-center font-bold mt-4 mb-8">Susținem înființarea „ <span className='underline'> DNA-ului Pădurilor</span>”</h1>
             
             <img src={DNA2} alt="DNA-ului Pădurilor" className="w-[40rem] mb-8" />

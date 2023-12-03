@@ -1,5 +1,6 @@
 import React from 'react';
 import OrganizationMember from './OrganizationMember';
+import { Helmet } from 'react-helmet'
 
 const OrganizationStructure = () => {
     const judeteanaMembers = [
@@ -26,6 +27,9 @@ const OrganizationStructure = () => {
    
     return (
         <div className="p-4 space-y-6 pt-20 min-h-screen">
+             <Helmet>
+            <title>Biroul Județean USR Iași</title>
+        </Helmet>
             <div>
                 <h2 className="text-2xl text-[#002A59] font-bold">Biroul Județean USR Iași</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-4">
