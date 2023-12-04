@@ -12,7 +12,7 @@ const BirouTineret = () => {
         { name: "Alexandru Florea ", title: "Vicepreședinte", imageUrl: "/AlexandruFlorea.png" },
         { name: "Andrei Sălceanu  ", title: "Vicepreședinte", imageUrl: "/Tineret.png" },
         { name: "Iustin Blaga ", title: "Vicepreședinte", imageUrl: "/Tineret.png" },
-        { name: "Crina Lavinia Iurașcu  ", title: "Vicepreședinte", imageUrl: "/LaviniaIurașcu.png" },
+        { name: "Crina Lavinia Iurașcu  ", title: "Vicepreședinte", imageUrl: "/LaviniaIurascu.png" },
         { name: "Bogdan Marian Puiu ", title: "Vicepreședinte", imageUrl: "/BogdanPuiu.png" },
         { name: "Armand Pălăncianu ", title: "Vicepreședinte", imageUrl: "/ArmandPalancianu.png" },
         { name: "Eliza Elena Matei  ", title: "Vicepreședinte", imageUrl: "/MateiEliza.png" },

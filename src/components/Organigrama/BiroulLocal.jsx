@@ -5,9 +5,9 @@ import { Helmet } from 'react-helmet'
 const BiroulLocal = () => {
 
     const municipalaMembers = [
-        { name: "Filip Havarneanu", title: "Președinte", imageUrl: "/FilipHavarneanu.jpeg" },
-        { name: "Dragos Popa", title: "Vicepreședinte", imageUrl: "/DragosPopa.jpeg" },
-        { name: "Daniela Disca", title: "Vicepreședinte", imageUrl: "/DanielDisca.png" },
+        { name: "Filip Havârneanu", title: "Președinte", imageUrl: "/FilipHavarneanu.jpeg" },
+        { name: "Dragoș Popa", title: "Vicepreședinte", imageUrl: "/DragosPopa.jpeg" },
+        { name: "Daniel Disca", title: "Vicepreședinte", imageUrl: "/DanielDisca.png" },
         { name: "Marius Ciobanu", title: "Vicepreședinte", imageUrl: "/MariusCiobanu.png" },
         
         { name: "Andrei Popescu", title: "Vicepreședinte", imageUrl: "/AndreiPopescu.png" },

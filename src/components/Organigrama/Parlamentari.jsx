@@ -6,7 +6,7 @@ const OrganizationStructure = () => {
     const senatoriMembers = [
         { name: "Monica Berescu", title: "Deputat", imageUrl: "/MonicaBerescu.png" },
         { name: "Marius Bodea", title: "Senator", imageUrl: "/MariusBodea.png" },
-        { name: "Filip Havarneanu", title: "Deputat", imageUrl: "/FilipHavârneanu.png" },
+        { name: "Filip Havârneanu", title: "Deputat", imageUrl: "/FilipHavarneanuP.png" },
         { name: "Cristi Berea", title: "Senator", imageUrl: "/CristiBerea.png" },
         ];
     

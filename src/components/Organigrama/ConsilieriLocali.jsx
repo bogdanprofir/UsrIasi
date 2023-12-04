@@ -13,7 +13,7 @@ const ConsilieriLocali = () => {
         { name: "Andrei Popescu", title: "Consilier Local Iași", imageUrl: "/AndreiPopescu.png" },
         { name: "Popescu Mădălina", title: "Consilier Local Iași", imageUrl: "/BJ.png" },
         { name: "Gabriela Cojocaru", title: "Consilier Local Iași", imageUrl: "/BJ.png" },
-        { name: "Iulian Nicolau", title: "Consilier Local Iași", imageUrl: "/Bj.png" },
+        { name: "Iulian Nicolau", title: "Consilier Local Iași", imageUrl: "/BJ.png" },
        
     ]   
     
