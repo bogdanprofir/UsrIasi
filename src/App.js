@@ -93,7 +93,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/campus-scolar-belcesti" element={<LiceuBelcesti />} />
           <Route path="/vizita-oficiala-Republica-Moldova"  element={<VizitaChisinau />} />
-          <Route path="intiative-usr-iasi" element={<Initiative/>}/>
+          <Route path="/intiative-usr-iasi" element={<Initiative/>}/>
           <Route path="activitati-presedinte" element={<ActivitatePresedinte/>}/>
           <Route path="/fara_pacanele_usr" element={<FaraPaca />} />
           <Route path="/actiunecaritabila" element={<ActiuneCaritabila />} />

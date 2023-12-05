@@ -50,35 +50,35 @@ function Acasa() {
         <div className="flex flex-col overflow-y-auto w-full md:w-1/2 p-4 rounded-tr-lg mb-4 md:mb-0 h-full">
           <h2 className="text-2xl font-bold mb-4 text-[#002A59] flex justify-center">Activitate</h2>
 
-          <Link to="/comunicat_presa_candidat_primaria_iasi" className="flex flex-col justify-center items-center lg:flex-row mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
+          <Link to="/comunicat_presa_candidat_primaria_iasi" className="flex flex-col lg:max-w-[40rem] justify-center items-center lg:flex-row mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
             <img src={Bodea} alt="News" className="w-40 h-40 object-cover mr-4" />
             <div className='flex flex-col justify-evenly'>
               <h3 className="text-xl font-semibold text-white">Comunicat de presă</h3>
               <p className="text-white">USR Iași anunță desemnarea oficială a candidatului pentru Primăria Municipiului Iași.</p>
             </div>
           </Link>
-          <Link to="/ecologizare" className="flex flex-col justify-center items-center lg:flex-row mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
+          <Link to="/ecologizare" className="flex flex-col lg:max-w-[40rem] justify-center items-center lg:flex-row mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
             <img src={EC1} alt="Activity" className="w-40 h-40 object-cover mr-4" />
             <div className='flex flex-col justify-evenly'>
               <h3 className="text-xl font-semibold text-white">Ecologizare făcută de USR Iași  </h3>
-              <p className="text-white">Cine se trezește de dimineață, mulți saci umple! </p>
+              <p className="text-white">USR Iași a pus la cale mai multe acțiuni de ecologizare pentru a strânge mizeriile aruncate la drumul mare, dar și în spațiile verzi. </p>
             </div>
           </Link>
-          <Link to="/usrAsculta" className="flex flex-col justify-center items-center lg:flex-row mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
-            <img src={UTA1} alt="News" className="w-40 h-40 object-cover mr-4" />
+          <Link to="/usrAsculta" className="flex flex-col justify-evenly items-center lg:max-w-[40rem] lg:flex-row mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
+            <img src={UTA1} alt="News" className="w-40 h-40 object-cover mr-4 " />
             <div className='flex flex-col justify-evenly'>
               <h3 className="text-xl font-semibold text-white">Campania „USR Iași te ascultă” </h3>
-              <p className="text-white">USR Iași alături de ieșeni. </p>
+              <p className="text-white">Continuă campania "USR Iași te ascultă" și în celelalte cartiere. </p>
             </div>
           </Link>
-          <Link to="/protest_chirica" className="flex flex-col justify-center items-center lg:flex-row mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
+          <Link to="/protest_chirica" className="flex flex-col justify-center items-center lg:max-w-[40rem] lg:flex-row mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
             <img src={PCH1} alt="News" className="w-40 h-40 object-cover mr-4" />
             <div className='flex flex-col justify-evenly'>
               <h3 className="text-xl font-semibold text-white">Protest împotriva corupției  </h3>
               <p className="text-white">USR Iași a protestat împotriva celui mai corupt primar pe care orașul nostru l-a avut vreodată.</p>
             </div>
           </Link>
-          <Link to="/caravanaDizabilitati" className="flex flex-col justify-center items-center lg:flex-row mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
+          <Link to="/caravanaDizabilitati" className="flex flex-col justify-center items-center lg:max-w-[40rem] lg:flex-row mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
             <img src={DIZ1} alt="News" className="w-40 h-40 object-cover mr-4" />
             <div className='flex flex-col justify-evenly'>
               <h3 className="text-xl font-semibold text-white">Caravana USR Dizabilități La Iași </h3>
@@ -86,7 +86,7 @@ function Acasa() {
             </div>
           </Link>
 
-          <Link to="/activitati-presedinte" className="flex flex-col justify-center items-center lg:flex-row mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
+          <Link to="/activitati-presedinte" className="flex flex-col justify-center items-center lg:max-w-[40rem] lg:flex-row mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
             <img src={ActiuniPresedinte} alt="Activity" className="w-40 h-40 object-cover mr-4" />
             <div className='flex flex-col justify-evenly'>
               <h3 className="text-xl font-semibold text-white">La pas prin județ </h3>
@@ -94,7 +94,7 @@ function Acasa() {
             </div>
           </Link>
 
-          <Link to="/BreakIasi" className="flex flex-col justify-center items-center lg:flex-row mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
+          <Link to="/BreakIasi" className="flex flex-col justify-center items-center lg:max-w-[40rem] lg:flex-row mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
             <img src={BRK1} alt="Activity" className="w-40 h-40 object-cover mr-4" />
             <div className='flex flex-col justify-evenly'>
               <h3 className="text-xl font-semibold text-white">B.R.E.A.K găzduit de USR Tineret Iași  </h3>
@@ -102,7 +102,7 @@ function Acasa() {
             </div>
           </Link>
 
-          <Link to="/campus-scolar-belcesti" className="flex flex-col justify-center items-center lg:flex-row mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
+          <Link to="/campus-scolar-belcesti" className="flex flex-col justify-center items-center lg:max-w-[40rem] lg:flex-row mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
             <img src={CSB} alt="Activity" className="w-40 h-40 object-cover mr-4" />
             <div className='flex flex-col justify-evenly'>
               <h3 className="text-xl font-semibold text-white">Demersuri pentru deschiderea campusului școlar din Belcesti   </h3>
@@ -110,7 +110,7 @@ function Acasa() {
             </div>
           </Link>
           
-          <Link to="/EuropeanSummit" className="flex flex-col justify-center items-center lg:flex-row mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
+          <Link to="/EuropeanSummit" className="flex flex-col justify-center items-center lg:max-w-[40rem] lg:flex-row mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
             <img src={EYS1} alt="Activity" className="w-40 h-40 object-cover mr-4" />
             <div className='flex flex-col justify-evenly'>
               <h3 className="text-xl font-semibold text-white">Future of European Youth Summit 3.0 Iași </h3>
@@ -118,15 +118,15 @@ function Acasa() {
             </div>
           </Link>
 
-          <Link to="/curs-fonduri-europene" className="flex flex-col justify-center items-center lg:flex-row mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
+          <Link to="/curs-fonduri-europene" className="flex flex-col justify-center items-center lg:max-w-[40rem] lg:flex-row mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
             <img src={FonduriEuropene} alt="News" className="w-40 h-40 object-scale-down mr-4" />
             <div className='flex flex-col justify-evenly'>
               <h3 className="text-xl font-semibold text-white">Ne formăm aleșii locali pentru viitor </h3>
-              <p className="text-white">Curs pentru accesarea de Fonduri Europene locale</p>
+              <p className="text-white">Curs pentru accesarea de Fonduri Europene locale, susținut de Corina Atanasiu, secretar de stat în Ministerul Investițiilor și Proiectelor Europene în timpul guvernării USR</p>
             </div>
           </Link>
           
-          <Link to="/protest_ciolacu" className="flex flex-col justify-center items-center lg:flex-row mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
+          <Link to="/protest_ciolacu" className="flex flex-col justify-center items-center lg:max-w-[40rem] lg:flex-row mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
             <img src={PC1} alt="News" className="w-40 h-40 object-center mr-4" />
             <div className='flex flex-col justify-evenly'>
               <h3 className="text-xl font-semibold text-white">Protest USR Iași împotriva Guvernului Ciolacu </h3>
@@ -134,14 +134,14 @@ function Acasa() {
             </div>
           </Link>
           
-          <Link to="/actiuneCaritabila" className="flex flex-col justify-center items-center lg:flex-row mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
+          <Link to="/actiuneCaritabila" className="flex flex-col justify-center items-center lg:max-w-[40rem] lg:flex-row mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
             <img src={XMAS1} alt="Activity" className="w-40 h-40 object-cover mr-4" />
             <div className='flex flex-col justify-evenly'>
               <h3 className="text-xl font-semibold text-white">Acțiune caritabilă USR Iași  </h3>
               <p className="text-white">Am  fost și ajutoarele lui Moș Crăciun, și am dăruit tuturor copiilor din două grădinițe din Cornești și Poieni, cadouri. </p>
             </div>
           </Link>
-          <Link to="/ajutor_ucraina" className="flex flex-col justify-center items-center lg:flex-row mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
+          <Link to="/ajutor_ucraina" className="flex flex-col justify-center items-center lg:max-w-[40rem] lg:flex-row mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
             <img src={UKR1} alt="News" className="w-40 h-40 object-cover mr-4" />
             <div className='flex flex-col justify-evenly'>
               <h3 className="text-xl font-semibold text-white">USR Tineret, solidar cu victimele războiului din Ucraina </h3>
@@ -155,21 +155,21 @@ function Acasa() {
         {/* xProiecte Column */}
         <div className="flex flex-col overflow-y-auto w-full md:w-1/2 p-4 rounded-tl-lg h-full">
           <h2 className="text-2xl font-bold mb-4 text-[#002A59] flex justify-center">Proiecte</h2>
-          <Link to="/fara_pacanele_usr" className="flex flex-col justify-center items-center lg:flex-row mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
+          <Link to="/ecologizare" className="flex flex-col lg:max-w-[40rem] justify-center items-center lg:flex-row mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
             <img src={FP1} alt="Activity" className="w-40 h-40 object-cover mr-4" />
             <div className='flex flex-col justify-evenly'>
-              <h3 className="text-xl font-semibold text-white">Fără Păcănele Lângă Școli </h3>
-              <p className="text-white">USR Iași continuă maratonul  #FărăPăcănele </p>
+              <h3 className="text-xl font-semibold text-white">#FărăPăcănele Lângă Școli  </h3>
+              <p className="text-white">USR Iași continuă maratonul #FărăPăcănele dialogând cu oamenii despre proiectul împotriva jocurilor de noroc </p>
             </div>
           </Link>
-          <Link to="/scoli_noi_pentru_Iasi" className="flex flex-col justify-center items-center lg:flex-row  mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
+          <Link to="/scoli_noi_pentru_Iasi" className="flex flex-col justify-center items-center lg:max-w-[40rem] lg:flex-row  mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
             <img src={ScoliNoi} alt="News" className="w-40 h-40 object-scale-down mr-4" />
             <div className='flex flex-col justify-evenly'>
               <h3 className="text-xl font-semibold text-white">Infrastructură școlară adecvată </h3>
               <p className="text-white">Construirea de la zero a patru școli noi în orașul Iași, în patru zone diferite ale orașului.</p>
             </div>
           </Link>
-          <Link to="/dna-ul_padurilor" className="flex flex-col justify-center items-center lg:flex-row  mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
+          <Link to="/dna-ul_padurilor" className="flex flex-col justify-center items-center lg:max-w-[40rem] lg:flex-row  mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
             <img src={DNA1} alt="News" className="w-40 h-40 object-cover mr-4" />
             <div className='flex flex-col justify-evenly'>
               <h3 className="text-xl font-semibold text-white">DNA-ul Pădurilor</h3>
@@ -177,7 +177,7 @@ function Acasa() {
             </div>
           </Link>
 
-          <Link to="/cabineteDotate" className="flex flex-col justify-center items-center lg:flex-row mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
+          <Link to="/cabineteDotate" className="flex flex-col justify-center items-center lg:max-w-[40rem] lg:flex-row mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
             <img src={DOC1} alt="Activity" className="w-40 h-40 object-cover mr-4" />
             <div className='flex flex-col justify-evenly'>
               <h3 className="text-xl font-semibold text-white">USR Iași, în ajutorul medicilor de familie  </h3>
@@ -186,25 +186,25 @@ function Acasa() {
           </Link>
 
           
-          <Link to="/petitieUSR" className="flex flex-col  justify-center items-center lg:flex-row mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
+          <Link to="/petitieUSR" className="flex flex-col  justify-center items-center lg:max-w-[40rem] lg:flex-row mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
             <img src={PET1} alt="Activity" className="w-40 h-40 object-cover mr-4" />
             <div className='flex flex-col justify-evenly'>
               <h3 className="text-xl font-semibold text-white">Transport Public GRATUIT</h3>
               <p className="text-white">Vrem transport public gratuit, rapid, flexibil si modern la Iasi! </p>
             </div>
           </Link>
-          <Link to="/termoficare" className="flex flex-col justify-center items-center lg:flex-row mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
+          <Link to="/termoficare" className="flex flex-col justify-center items-center lg:max-w-[40rem] lg:flex-row mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
             <img src={TF1} alt="Activity" className="w-40 h-40 object-scale-down mr-4" />
-            <div className='flex flex-col justify-evenly'>
+            <div className='flex flex-col justify-evenly mr-4'>
               <h3 className="text-xl font-semibold text-white">Termoficare verde pentru Iași </h3>
-              <p className="text-white">USR Iași propune termoficare verde pentru Iași!  </p>
+              <p className="text-white">USR Iași propune termoficare verde pentru Iași, din fonduri nerambursabile prin programul RePowerEU și PNRR!  </p>
             </div>
           </Link>
-          <Link to="/vizita-oficiala-Republica-Moldova" className="flex flex-col justify-center items-center lg:flex-row mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
+          <Link to="/vizita-oficiala-Republica-Moldova" className="flex flex-col justify-center items-center lg:flex-row lg:max-w-[40rem] mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
             <img src={G22} alt="Activity" className="w-40 h-40 object-scale-down mr-4" />
             <div className='flex flex-col justify-evenly'>
               <h3 className="text-xl font-semibold text-white">Vizita președintelui USR Iași la Chișinău </h3>
-              <p className="text-white">Intensificăm relațiile de colaborare cu frații de peste Prut!  </p>
+              <p className="text-white">Președintele USR Iași - Ștefan Tanasă s-a aflat într-o vizită în capitala Republicii Moldova pentru a intensifica relațiile de colaborare cu frații de peste Prut!  </p>
             </div>
           </Link>
           

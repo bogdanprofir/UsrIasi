@@ -65,7 +65,7 @@ const goToSlide = (slideIndex) => {
   return (
 
     
-    <div className='max-w-[1400px] h-[780px] w-full m-auto py-16 px-4 relative group'>
+    <div className='max-w-[1400px] h-[100vh] max-h-screen flex-grow w-full m-auto py-16 px-4 relative group'>
       <Helmet>
         <title>Inițiative USR Iași</title>
       </Helmet>
@@ -81,12 +81,12 @@ const goToSlide = (slideIndex) => {
       <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
         <BsChevronCompactRight onClick={nextSlide} size={30} />
       </div>
-      <div className='flex top-4 justify-center py-2'>
+      <div className='flex absolute bottom-1 justify-center w-full'>
         {slides.map((slide, slideIndex) => (
           <div
             key={slideIndex}
             onClick={() => goToSlide(slideIndex)}
-            className='text-2xl cursor-pointer'
+            className='text-2xl cursor-pointer mx-1 sm:mx-2'
           >
             <RxDotFilled />
           </div>
