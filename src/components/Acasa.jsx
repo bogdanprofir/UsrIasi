@@ -155,7 +155,7 @@ function Acasa() {
         {/* xProiecte Column */}
         <div className="flex flex-col overflow-y-auto w-full md:w-1/2 p-4 rounded-tl-lg h-full">
           <h2 className="text-2xl font-bold mb-4 text-[#002A59] flex justify-center">Proiecte</h2>
-          <Link to="/ecologizare" className="flex flex-col lg:max-w-[40rem] justify-center items-center lg:flex-row mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
+          <Link to="/fara_pacanele_usr" className="flex flex-col lg:max-w-[40rem] justify-center items-center lg:flex-row mb-4 border bg-[#002A59] rounded-tl-3xl rounded-br-3xl p-2 hover:shadow-lg">
             <img src={FP1} alt="Activity" className="w-40 h-40 object-cover mr-4" />
             <div className='flex flex-col justify-evenly'>
               <h3 className="text-xl font-semibold text-white">#FărăPăcănele Lângă Școli  </h3>
